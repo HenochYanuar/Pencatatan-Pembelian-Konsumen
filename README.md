@@ -15,6 +15,7 @@ Setelah repository diclone atau didownload, ikuti langkah-langkah berikut untuk 
 
    ```bash
    git clone https://github.com/HenochYanuar/Pencatatan-Pembelian-Konsumen.git
+   ```
 
    Masuk ke dalam direktori project:
 
@@ -48,11 +49,11 @@ Setelah repository diclone atau didownload, ikuti langkah-langkah berikut untuk 
 
    Lalu, sesuaikan konfigurasi database di .env:
 
-  ```dotenv
-  DB_DATABASE=order_product_ddms
-  DB_USERNAME=root
-  DB_PASSWORD=yourpassword
-  ```
+   ```dotenv
+   DB_DATABASE=order_product_ddms
+   DB_USERNAME=root
+   DB_PASSWORD=yourpassword
+   ```
 
 5. **Migrasi Database**
 
@@ -88,7 +89,7 @@ Setelah repository diclone atau didownload, ikuti langkah-langkah berikut untuk 
 
   - Pastikan MySQL server sudah berjalan sebelum menjalankan migrasi.
   - Jika kamu mengubah nama database atau konfigurasi lainnya, jangan lupa memperbarui file .env.
-  
+
 
 ## Requirements Test
 
